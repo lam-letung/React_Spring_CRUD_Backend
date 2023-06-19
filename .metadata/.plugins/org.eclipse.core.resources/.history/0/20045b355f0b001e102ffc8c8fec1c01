@@ -1,0 +1,22 @@
+package com.lamlt15.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.lamlt15.model.User;
+import com.lamlt15.repository.UserRepository;
+import com.lamlt15.services.UserService;
+
+@Controller
+public class UserController {
+
+	@Autowired
+	private UserService userService;
+	
+	@PostMapping("/user")
+	User newUser(@RequestBody User newUser) {
+		return userService.save(newUser);
+	}
+}

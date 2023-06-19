@@ -1,0 +1,5 @@
+package com.lamlt15.services;
+
+public interface UserService {
+
+}

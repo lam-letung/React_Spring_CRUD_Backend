@@ -1,0 +1,11 @@
+
+f
+java:S1874W"5Remove this use of "deleteInBatch"; it is deprecated.(ÚÄÙ$8™ÖÔð‹1HRMINORZ
+CODE_SMELL
+a
+java:S1874‰".Remove this use of "getOne"; it is deprecated.(Þ—†º8™ÖÔð‹1H	RMINORZ
+CODE_SMELL
+b
+java:S1874“"/Remove this use of "getById"; it is deprecated.(÷†À˜8™ÖÔð‹1H
+RMINORZ
+CODE_SMELL
